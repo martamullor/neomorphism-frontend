@@ -26,25 +26,26 @@ body {
     color: #b6bbc5;
     font-weight: 800;
     text-transform: uppercase;
-    font-size: 2.5rem;
+    font-size: 3rem;
+    margin-bottom: 15px;
 }
 
 .buttons li {
     position: relative;
     list-style: none;
-    height: 50px;
+    height: 35px;
     width: 300px;
     background: #dde1e7;
     margin: 0 10px;
     cursor: pointer;
-    margin: 20px 0px;
+    margin: 10px 0px;
     border-radius: 3%;
     box-shadow: -3px -3px 7px #ffffff73,
                 3px 3px 5px rgba(94, 104, 121, 0.288);
 }
 
 .buttons li a {
-    line-height: 50px;
+    line-height: 35px;
     font-size: 1.4rem;
     color: #b6bbc5;
     text-decoration: none;

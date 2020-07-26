@@ -1,0 +1,108 @@
+/*
+
+COLORS
+
+box-shadow: -3px -3px 7px #ffffff73,
+            3px 3px 5px rgba(94, 104, 121, 0.288);
+
+box-shadow: inset -3px -3px 7px #ffffff73,
+            inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    background: #dde1e7;
+}
+
+.container {
+    width: 350px;
+    border-radius: 14px;
+    background: #dde1e7;
+    box-shadow: -3px -3px 5px #ffffff73,
+                3px 3px 7px rgba(94, 104, 121, 0.288);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 30px;
+    display: flex;
+    flex-direction: column;
+    animation: opacity 300ms ease-in-out normal;   
+}
+
+.container h1 {
+    text-align: center;
+    color: rgba(94, 104, 121, 0.288);
+    font-size: 3.3rem;
+    text-shadow: 2px 2px 3px rgba(255,255,255,0.3);
+    margin: 25px 0px;
+}
+
+.container label {
+    color: #bdbfcb;
+}
+
+.container input {
+    outline: none;
+    border: none;
+    border-radius: 14px;
+    width: 100%;
+    padding: 8px 15px;
+    box-shadow: inset -3px -3px 5px #ffffff73,
+                inset 3px 3px 3px rgba(94, 104, 121, 0.288);
+    font-size: 1.2rem;
+    color: #686c77;
+    margin: 8px 0px;
+    padding: 12px;
+    background: #dde1e7;
+}
+
+.container input::placeholder {
+    color: rgba(94, 104, 121, 0.588);
+}
+
+.container button {
+    border: none;
+    border-radius: 80px;
+    padding: 12px;
+    text-align: center;
+    width: 290px;
+    color: #a3221d;
+    font-weight: 600;
+    background: #dde1e7;
+    margin: 20px 0px 35px 0px;
+    outline: none;
+    font-size: 1.4rem;
+    box-shadow: -3px -3px 5px #ffffff73,
+                3px 3px 3px rgba(94, 104, 121, 0.288);;
+}
+
+.container button.shadow-1 {
+    box-shadow: inset -3px -3px 7px #ffffff73,
+                inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+    color: green;
+}
+
+#icon-login {
+    font-size: 1.4rem;
+    padding: 0px 5px;
+}
+
+@keyframes opacity {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      transition: transform 0.1s;
+      opacity: 1;
+    }
+  }
+
