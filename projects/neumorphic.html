@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="/styles/neumorphic.css" />
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <title>CSS3 Neumorphic buttons effect</title>
+  </head>
+  <body>
+    <div class="center">
+      <div class="icons first">
+        <li>
+          <a href="#"><span class="fab fa-facebook"></span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fab fa-twitter"></span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fab fa-instagram"></span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fab fa-linkedin-in"></span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fab fa-github"></span></a>
+        </li>
+      </div>
+      <div class="icons second">
+        <li>
+          <a href="#"><span class="fab fa-facebook"></span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fab fa-twitter"></span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fab fa-instagram"></span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fab fa-linkedin-in"></span></a>
+        </li>
+        <li>
+          <a href="#"><span class="fab fa-github"></span></a>
+        </li>
+      </div>
+    </div>
+    <script>
+      $(".first li").click(function() {
+        $(this).toggleClass("shadow-1");
+        $(this).toggleClass("fill-color");
+      });
+      $(".second li").click(function() {
+        $(this).toggleClass("shadow-2");
+        $(this).toggleClass("fill-color");
+      });
+    </script>
+  </body>
+</html>

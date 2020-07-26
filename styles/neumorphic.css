@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 27px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #dde1e7;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    margin: 40px 0px;
+}
+
+.icons li {
+    position: relative;
+    list-style: none;
+    height: 70px;
+    width: 70px;
+    background: #dde1e7;
+    margin: 0 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    box-shadow: -3px -3px 7px #ffffff73,
+                3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+.icons li a {
+    line-height: 73px;
+    font-size: 1rem;
+    color: #b6bbc5;
+}
+
+.second li.shadow-2 a {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 55px;
+    width: 55px;
+    line-height: 58px;
+    border-radius: 50%;
+    font-size: 0.9rem;
+    box-shadow: inset -3px -3px 7px #ffffff73,
+                inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+.first li.shadow-1 {
+    box-shadow: inset -3px -3px 7px #ffffff73,
+                inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+}
+
+.first li.shadow-1 a {
+    font-size: 0.8rem;
+}
+
+li:nth-child(1).fill-color a {
+    color: #4267B2;
+}
+
+li:nth-child(2).fill-color a {
+    color: #1DA1F2;
+}
+
+li:nth-child(3).fill-color a {
+    color: #E1306C;
+}
+
+li:nth-child(4).fill-color a {
+    color: #2867B2;
+}
+
+li:nth-child(5).fill-color a {
+    color: #333;
+}
