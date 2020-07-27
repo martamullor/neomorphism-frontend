@@ -6,7 +6,6 @@ Researching about some potential new trends in UI design, one caught my attentio
 
 ## 👩🏻‍💻Examples 
 
-![Example-1](img/button-menu.gif)
 ![Example-2](img/buttons.gif)
 
 ## 💥Demo 

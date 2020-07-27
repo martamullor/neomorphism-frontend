@@ -1,0 +1,55 @@
+body {
+  background: #F0F0F3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.m_button {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  background-color: #F0F0F3;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: -20px -20px 20px rgba(255, 255, 255, 1),
+              10px 10px 20px  rgba(174, 174, 192, 0.6),
+              inset -4px -4px 6px  rgba(255, 255, 255, 1);
+}
+
+.second {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  z-index: 1;
+}
+
+.third {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  z-index: 2;
+}
+
+.four {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  z-index: 3;
+}
+
+.five {
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  z-index: 3;
+}
+
+
+
