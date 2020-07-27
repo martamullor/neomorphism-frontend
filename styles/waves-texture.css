@@ -1,5 +1,5 @@
 body {
-  background: #F0F0F3;
+  background: #dde1e7;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,13 +14,13 @@ body {
   justify-content: center;
   flex-direction: column;
   cursor: pointer;
-  background-color: #F0F0F3;
+  background-color: #dde1e7;
   width: 300px;
   height: 300px;
   border-radius: 50%;
-  box-shadow: -20px -20px 20px rgba(255, 255, 255, 1),
+  box-shadow: -10px -10px 20px rgba(255, 255, 255, 0.8),
               10px 10px 20px  rgba(174, 174, 192, 0.6),
-              inset -4px -4px 6px  rgba(255, 255, 255, 1);
+              inset -4px -4px 6px  rgba(255, 255, 255, 0.4);
 }
 
 .second {
