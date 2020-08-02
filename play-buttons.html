@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Neomorphism Style</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons+Round"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/play-buttons.css" />
+  </head>
+
+  <body>
+    <div class="btns-wrapper">
+      <div class="btn">
+        <div class="inner-wrapper">
+          <i class="material-icons-round">play_arrow</i>
+        </div>
+      </div>
+      <div class="btn">
+        <div class="inner-wrapper">
+          <i class="material-icons-round">pause</i>
+        </div>
+      </div>
+      <div class="btn">
+        <div class="inner-wrapper">
+          <i class="material-icons-round">skip_next</i>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const btns = document.querySelectorAll(".btn");
+
+    for (const btn of btns) {
+      btn.addEventListener("click", () => {
+        btn.classList.toggle("active");
+      });
+    }
+  </script>
+</html>
