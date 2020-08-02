@@ -10,7 +10,7 @@ Researching about some potential new trends in UI design, one caught my attentio
 
 ## 💥Demo 
 
-[You can see all elements here](http://www.martamullor.com/labs-creativity)
+[You interact with all elements here](https://martamullor.github.io/neomorphism-frontend/)
 
 ## Contribute
 
@@ -19,4 +19,4 @@ Any suggestions are welcome!
 
 ## My portfolio
 
-[Link to Trello](http://www.martamullor.com/)
+[Link to Portfolio](http://www.martamullor.com/)
