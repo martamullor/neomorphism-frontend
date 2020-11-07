@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/loading.css" />
+    <title>Neomophic Loading</title>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="rings">
+        <div class="ring ring4"></div>
+        <div class="ring ring3"></div>
+        <div class="ring ring2"></div>
+        <div class="ring ring1"></div>
+        <div class="ring ring0"></div>
+        <div class="ring ring-1"></div>
+      </div>
+      <div class="choose-theme-container">
+        <p>Choose a color:</p>
+        <div class="choose-theme">
+          <div class="theme theme1" onclick="chooseTheme('#177e89')"></div>
+          <div class="theme theme2" onclick="chooseTheme('#084c61')"></div>
+          <div class="theme theme3" onclick="chooseTheme('#db3a34')"></div>
+          <div class="theme theme4" onclick="chooseTheme('#6e0e0a')"></div>
+          <div class="theme theme5" onclick="chooseTheme('#d74e09')"></div>
+          <div class="theme theme6" onclick="chooseTheme('#ffc857')"></div>
+          <div class="theme theme7" onclick="chooseTheme('#323031')"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script>
+    const root = document.documentElement;
+    const chooseTheme = (color) => {
+      root.style.setProperty("--golden-glow", color);
+    };
+  </script>
+</html>

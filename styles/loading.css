@@ -1,0 +1,188 @@
+:root {
+  --golden-glow: #db3a34;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 10px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #dde1e7;
+}
+
+.rings {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.ring {
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288),
+    inset 3px 3px 5px rgba(94, 104, 121, 0.288);
+  border: 5px solid #dde1e7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0% 1.5%;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 10px;
+}
+
+.ring-1 {
+  animation: glow-1 2.5s infinite;
+}
+
+@keyframes glow-1 {
+  90% {
+    background-color: #dde1e7;
+  }
+  100% {
+    background-color: var(--golden-glow);
+    transform: rotate(45deg)
+  }
+}
+
+.ring0 {
+  animation: glow0 2.5s infinite;
+}
+
+@keyframes glow0 {
+  70% {
+    background-color: #dde1e7;
+  }
+  100% {
+    background-color: var(--golden-glow);
+    transform: rotate(45deg)
+  }
+}
+
+.ring1 {
+  animation: glow1 2.5s infinite;
+}
+
+@keyframes glow1 {
+  60% {
+    background-color: #dde1e7;
+  }
+  80% {
+    background-color: var(--golden-glow);
+  }
+  100% {
+    background-color: var(--golden-glow);
+    transform: rotate(45deg)
+  }
+}
+
+.ring2 {
+  animation: glow2 2.5s infinite;
+}
+
+@keyframes glow2 {
+  40% {
+    background-color: #dde1e7;
+  }
+  60% {
+    background-color: var(--golden-glow);
+  }
+  100% {
+    background-color: var(--golden-glow);
+    transform: rotate(45deg)
+  }
+}
+
+.ring3 {
+  animation: glow3 2.5s infinite;
+}
+
+@keyframes glow3 {
+  20% {
+    background-color: #dde1e7;
+  }
+  40% {
+    background-color: var(--golden-glow);
+  }
+  100% {
+    background-color: var(--golden-glow);
+    transform: rotate(45deg)
+  }
+}
+
+.ring4 {
+  animation: glow4 2.5s infinite;
+}
+
+@keyframes glow4 {
+  0% {
+    background-color: #dde1e7;
+  }
+  20% {
+    background-color: var(--golden-glow);
+  }
+  100% {
+    background-color: var(--golden-glow);
+    transform: rotate(45deg)
+  }
+}
+
+.choose-theme-container,
+p {
+  display: flex;
+  flex-direction: column;
+  margin-top: 3.5rem;
+  text-align: center;
+  font-size: 1.1rem;
+  color: grey;
+  text-transform: uppercase;
+  letter-spacing: 0.6rem;
+}
+
+.choose-theme {
+  display: flex;
+  justify-content: center;
+  column-gap: 10px;
+  margin-top: 2rem;
+}
+
+.theme {
+  width: 2.8rem;
+  height: 2.8rem;
+  cursor: pointer;
+  border: 4px solid #dde1e7;
+  box-shadow: -3px -3px 7px #ffffff73, 3px 3px 5px rgba(94, 104, 121, 0.288);
+  border-radius: 30%;
+}
+
+.theme1 {
+  background-color: #177e89;
+}
+.theme2 {
+  background-color: #084c61;
+}
+.theme3 {
+  background-color: #db3a34;
+}
+.theme4 {
+  background-color: #6e0e0a;
+}
+.theme5 {
+  background-color: #d74e09;
+}
+.theme6 {
+  background-color: #ffc857;
+}
+.theme7 {
+  background-color: #323031;
+}
